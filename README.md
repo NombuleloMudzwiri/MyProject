@@ -36,6 +36,34 @@ Step 6: Navigate to the link
 web browser:
 http://127.0.0.1:8000/polls/
 
+## Usage
+The Django Polls app provides a straightforward and intuitive way to create, manage, and participate in polls and surveys. Follow these steps to effectively use the app:
+
+- Creating a Poll:
+To create a new poll, follow these steps:
+
+Access the admin panel by visiting http://127.0.0.1:8000/admin/.
+Log in with the superuser (admin) credentials you previously created during installation.
+In the admin dashboard, navigate to the "Polls" section and click on "Add".
+Fill in the poll question and any relevant information.
+Add multiple-choice answers by clicking the "Add another Choice" button and entering the choices.
+Save the poll.
+
+- Participating in a Poll:
+
+Participants can visit the homepage (http://127.0.0.1:8000/) to view the list of available polls. They can click on a poll to access the details and vote for their preferred option.
+
+- Viewing Poll Results:
+
+After participants have voted, the poll results will be displayed. The results show the distribution of votes for each choice in a visually appealing graph.
+
+- Admin Features:
+
+As an admin, you can:
+Manage existing polls by editing or deleting them.
+View vote counts and participant details for each poll.
+Analyze poll results to gain insights.
+
 ## Credits
 Author: Nombulelo Mudzwiri
 
